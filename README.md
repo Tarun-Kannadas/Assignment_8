@@ -1,32 +1,24 @@
-# 🧠 Resume Website using Express.js
+# 🧾 Resume Website using Express.js & EJS
 
-This project demonstrates how to host a personal Resume Website built with HTML, CSS, and JavaScript using Node.js and Express.js.
-It’s a simple yet effective setup to serve static web pages through a backend server.
+This project is a simple Resume Website built using Express.js and EJS (Embedded JavaScript Templates).
+It showcases my personal resume dynamically rendered through a server-side template.
 
 # 🚀 Features
 
-🌐 Serves your resume website through an Express.js server
+⚙️ Express.js-based server to handle routing
 
-⚡ Fast and lightweight — perfect for hosting portfolios or personal sites
+🧩 EJS templating for rendering dynamic HTML pages
 
-📄 Supports all static assets (HTML, CSS, JS, images)
+🎨 CSS styling for clean, modern design
 
-🧱 Clean folder structure for easy scalability
+🖼️ Static assets support (images, JS, and styles served from public folders)
 
-💬 Can be extended with form handling or routing features
+🧾 Dynamic resume page — easily updatable without editing raw HTML
 
-# 🛠️ Technologies Used
+# 🧠 Technologies Used
 Technology	Purpose
-HTML5	Structure and content of the resume
-CSS3	Styling and responsive layout
-JavaScript (Vanilla)	Interactive sections and dynamic behavior
-Node.js	Runtime environment
-Express.js	Backend framework to serve static files
-
-# ⚙️ How It Works
-The project uses Express.js to handle incoming HTTP requests.
-
-It serves all static files (like index.html, CSS, and JS) from a public directory.
-
-When a user visits the server URL (like http://localhost:3000),
-the Express app responds with your resume’s homepage.
+Node.js	Backend runtime environment
+Express.js	Web framework for routing and static file serving
+EJS	Template engine for dynamic HTML rendering
+CSS3	Styling and layout
+JavaScript	Front-end interactions and scripts
